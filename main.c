@@ -16,8 +16,7 @@ int main(void) {
 	char *line = 0, *token = 0;
 	
 	// read a line of input using readline
-	//line = readline("Input rpn expression:\n");
-	line = readline(NULL);
+	line = readline("Input rpn expression:\n");
 	
 	token = (char*) malloc(TOK_SZ * sizeof(*token));
 	// stores line's total lenght and current tokenization point
